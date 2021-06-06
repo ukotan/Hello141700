@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ua-hello-141700-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uaHello141700/UaHello141700WebPart.js",
+          "manifest": "./src/webparts/uaHello141700/UaHello141700WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UaHello141700WebPartStrings": "lib/webparts/uaHello141700/loc/{locale}.js"
+  }
+}
